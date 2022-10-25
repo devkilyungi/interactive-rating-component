@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Active states](images/active-state.png)
+![Active states in rating card](images/active-state.png)
+![Thank you card](images/thank you card.png)
 
 ### Links
 
