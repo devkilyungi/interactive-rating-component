@@ -27,36 +27,28 @@
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-      <form action="get">
-        <div class="radio-buttons">
-
-          <label for="value1">1</label>
-          <input type="radio" name="value1" id="value1">
-        <label for="value2">2</label>
-        <input type="radio" name="value2" id="value2">
-        <label for="value3">3</label>
-        <input type="radio" name="value3" id="value3">
-        <label for="value4">4</label>
-        <input type="radio" name="value4" id="value4">
-        <label for="value5">5</label>
-        <input type="radio" name="value5" id="value5">
+      <div class="rating-values">
+        <p data-rating-value>1</p>
+        <p data-rating-value>2</p>
+        <p data-rating-value>3</p>
+        <p data-rating-value>4</p>
+        <p data-rating-value>5</p>
       </div>
-        <button class="submit">Submit</button>
-      </form>
+      <button class="submit">Submit</button>
     </div>
 
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
 
-    <div class="thank-you-card">
+    <div class="thank-you-card disappear">
       <img
-        alt="thank you illustration"
+        alt="phone image showing succesful processing of request"
         src="./images/illustration-thank-you.svg"
       />
-      <p>You selected <span class="selected-rating">1</span> out of 5</p>
+      <p id="rating">You selected 1 out of 5</p>
       <h1 class="title">Thank you!</h1>
-      <p>
+      <p id="note">
         We appreciate you taking the time to give a rating. If you ever need
         more support, don&apos;t hesitate to get in touch!
       </p>
