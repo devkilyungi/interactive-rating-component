@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Active states in rating card](images/active-state.png)
+![Thank you card](images/thank you card.png)
 
 ### Links
 
